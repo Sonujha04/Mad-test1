@@ -202,3 +202,177 @@ CampusNews
 ├── Gradle Scripts
 │
 └── README.md
+
+
+## SCREENSHOTS
+<img width="360" height="791" alt="Screenshot 2026-09-10 112525" src="https://github.com/user-attachments/assets/7a5847ca-a413-42f7-a683-a8529a7c83ae" />
+<img width="357" height="797" alt="Screenshot 2026-09-10 112606" src="https://github.com/user-attachments/assets/90d5afaa-0017-400e-b44a-bce6f4e1204c" />
+<img width="355" height="787" alt="Screenshot 2026-09-10 112621" src="https://github.com/user-attachments/assets/cfbfc536-68da-4fdb-a22f-39cf3c8164da" />
+<img width="352" height="790" alt="Screenshot 2026-09-10 112723" src="https://github.com/user-attachments/assets/8a55a880-28e7-43b1-a61f-e2c28b19ad70" />
+<img width="360" height="793" alt="Screenshot 2026-09-10 112738" src="https://github.com/user-attachments/assets/cb1f4b36-257e-4954-b625-b0a5caf8b4da" />
+
+Create Android Project
+          ↓
+Select Kotlin
+          ↓
+Create MainActivity
+          ↓
+Design Home Screen
+          ↓
+Add College Logo
+          ↓
+Add CampusNews Title
+          ↓
+Add Welcome Message
+          ↓
+Add Category Buttons
+          ↓
+Create Academic Fragment
+          ↓
+Create Event Fragment
+          ↓
+Create Placement Fragment
+          ↓
+Add News Images
+          ↓
+Add News Descriptions
+          ↓
+Add Read More Button
+          ↓
+Create ArticleActivity
+          ↓
+Implement Explicit Intent
+          ↓
+Pass Article Data
+          ↓
+Display Complete Article
+          ↓
+Generate Notification
+          ↓
+Implement Back Button
+          ↓
+Run and Test Application
+
+START
+  │
+  ▼
+Open CampusNews
+  │
+  ▼
+MainActivity
+  │
+  ▼
+Home Screen
+  │
+  ├───────────────┬────────────────┐
+  │               │                │
+  ▼               ▼                ▼
+Academic         Event          Placement
+Button           Button           Button
+  │               │                │
+  ▼               ▼                ▼
+Academic         Event          Placement
+Fragment         Fragment        Fragment
+  │               │                │
+  └───────────────┼────────────────┘
+                  │
+                  ▼
+             News / Update
+                  │
+                  ▼
+              Read More
+                  │
+                  ▼
+                Intent
+                  │
+                  ▼
+           ArticleActivity
+                  │
+          ┌───────┴────────┐
+          │                │
+          ▼                ▼
+   Complete Article   Notification
+          │
+          ▼
+      Back Button
+          │
+          ▼
+     Home Screen
+
+## Expected Output
+
+After successfully running the application, the following flow should work:
+             ┌─────────────────┐
+             │   CampusNews    │
+             │      START      │
+             └────────┬────────┘
+                      │
+                      ▼
+             ┌─────────────────┐
+             │  MainActivity   │
+             └────────┬────────┘
+                      │
+          ┌───────────┼───────────┐
+          │           │           │
+          ▼           ▼           ▼
+      Academic      Event     Placement
+      Fragment     Fragment    Fragment
+          │           │           │
+          └───────────┼───────────┘
+                      │
+                      ▼
+                 Read More
+                      │
+                      ▼
+                   Intent
+                      │
+                      ▼
+             ArticleActivity
+                      │
+             ┌────────┴────────┐
+             │                 │
+             ▼                 ▼
+       Complete Article   Notification
+             │
+             ▼
+          Back Button
+             │
+             ▼
+        MainActivity
+
+## Learning Outcomes
+
+After completing this project, the following concepts are understood:
+
+Android Development
+Android Studio
+Android SDK
+Android project structure
+XML layouts
+Resource management
+Kotlin
+Kotlin classes
+Functions
+Variables
+Click listeners
+Intent handling
+Fragment implementation
+Activities
+Creating Activities
+Starting Activities
+Finishing Activities
+Activity navigation
+Fragments
+Creating Fragments
+Fragment lifecycle
+Fragment navigation
+Reusing UI components
+Intent
+Explicit Intent
+Passing data
+Receiving data using Intent extras
+Notifications
+Notification Channel
+Notification Builder
+Notification Manager
+Notification permission
